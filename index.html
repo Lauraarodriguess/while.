@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula while</title>
+</head>
+<body>
+    <center>
+        <h1>Aula while</h1>
+
+        <script>
+            //criar variáveis
+            //tipo texto - STRING 
+            while (true) {
+
+            var usuario = prompt(" Digite o seu usuário")
+            var senha = parseInt (prompt(" Digite a sua senha"))
+    
+            if(usuario == "laurete@lau.com" && senha == "12345") {
+               window.location.href = "/page.html"
+                break;
+            } else {
+                alert("Usuário/Senha não encontrados!")
+            }
+        }
+        </script>
+    </center>
+</body>
+</html>
